@@ -26,3 +26,21 @@ export async function PATCH(request:Request,context:Context) {
   const row=await db.prepare('SELECT * FROM inquiries WHERE id=?').bind(id).first<InquiryRow>();if(!row)throw new Error('missing_updated_inquiry');return apiJson(serializeInquiry(row));
  }catch(error){return apiFailure(error);}
 }
+
+export async function DELETE(request: Request, context: Context) {
+  try {
+    requireAdminRequest(request);
+    checkSameOrigin(request);
+    const id = await selectedId(context);
+    const db = database();
+
+    db.batch([
+      db.prepare('DELETE FROM inquiry_audit WHERE inquiry_id = ?').bind(id),
+      db.prepare('DELETE FROM inquiries WHERE id = ?').bind(id),
+    ]);
+
+    return new Response(null, {status: 204, headers: {'Cache-Control': 'no-store'}});
+  } catch (error) {
+    return apiFailure(error);
+  }
+}
