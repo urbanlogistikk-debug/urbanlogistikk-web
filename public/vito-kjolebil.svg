@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" role="img" aria-labelledby="title desc">
+  <title id="title">Urban Logistikks kjølebil</title>
+  <desc id="desc">Illustrasjon av en hvit Mercedes-Benz Vito med kjøleaggregat og Urban Logistikk på skyvedøren, i et norsk bylandskap.</desc>
+  <defs>
+    <linearGradient id="sky" x2=".82" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#10282f"/><stop offset=".57" stop-color="#344b50"/><stop offset="1" stop-color="#536769"/></linearGradient>
+    <radialGradient id="haze" cx=".77" cy=".43" r=".67"><stop stop-color="#aecab7" stop-opacity=".33"/><stop offset=".62" stop-color="#62807a" stop-opacity=".05"/><stop offset="1" stop-color="#26444a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="road" x2=".2" y2="1"><stop stop-color="#455658"/><stop offset=".2" stop-color="#324347"/><stop offset="1" stop-color="#142a31"/></linearGradient>
+    <linearGradient id="paint" x1=".42" y1="0" x2=".39" y2="1"><stop stop-color="#fffef7"/><stop offset=".21" stop-color="#ebf1ec"/><stop offset=".48" stop-color="#c7d5d1"/><stop offset=".64" stop-color="#e3eae4"/><stop offset=".84" stop-color="#c7d4cf"/><stop offset="1" stop-color="#859b98"/></linearGradient>
+    <linearGradient id="hood" x2=".4" y2=".9"><stop stop-color="#ffffff"/><stop offset=".48" stop-color="#e1e9e3"/><stop offset=".82" stop-color="#f5f6ef"/><stop offset="1" stop-color="#afbfbb"/></linearGradient>
+    <linearGradient id="nose" x2=".8" y2=".85"><stop stop-color="#dbe4dc"/><stop offset=".36" stop-color="#eff2e9"/><stop offset=".67" stop-color="#adbeb9"/><stop offset="1" stop-color="#738b88"/></linearGradient>
+    <linearGradient id="glass" x1=".12" y1="0" x2=".8" y2="1"><stop stop-color="#9aafac"/><stop offset=".39" stop-color="#506d72"/><stop offset=".73" stop-color="#2b464e"/><stop offset="1" stop-color="#38545c"/></linearGradient>
+    <linearGradient id="wind" x1=".2" y1="0" x2=".83" y2="1"><stop stop-color="#b0c0b6"/><stop offset=".42" stop-color="#738f90"/><stop offset=".8" stop-color="#48656d"/><stop offset="1" stop-color="#344f57"/></linearGradient>
+    <linearGradient id="trim" x2="0" y2="1"><stop stop-color="#526769"/><stop offset=".25" stop-color="#2b4247"/><stop offset=".66" stop-color="#1b3036"/><stop offset="1" stop-color="#374b4d"/></linearGradient>
+    <linearGradient id="steel" x1=".13" y1="0" x2=".89" y2="1"><stop stop-color="#e9eee7"/><stop offset=".27" stop-color="#abb9b5"/><stop offset=".47" stop-color="#627476"/><stop offset=".67" stop-color="#b9c5be"/><stop offset="1" stop-color="#728282"/></linearGradient>
+    <linearGradient id="lamp" x1="0" y1="0" x2="1" y2=".76"><stop stop-color="#718a8e"/><stop offset=".25" stop-color="#e9f3ec"/><stop offset=".55" stop-color="#b5c6bf"/><stop offset="1" stop-color="#e6efe8"/></linearGradient>
+    <radialGradient id="rubber" cx=".4" cy=".32" r=".75"><stop stop-color="#394448"/><stop offset=".62" stop-color="#243136"/><stop offset=".87" stop-color="#151f24"/><stop offset="1" stop-color="#273538"/></radialGradient>
+    <filter id="blur" x="-.25" y="-.6" width="1.5" height="2.2"><feGaussianBlur stdDeviation="6"/></filter>
+    <g id="wheel">
+      <circle r="31" fill="url(#rubber)" stroke="#111e22" stroke-width="1.2"/><circle r="26.8" fill="none" stroke="#64716e" stroke-width=".7" opacity=".56"/>
+      <circle r="20" fill="#111e22" stroke="#82918c" stroke-width="1"/><circle r="18.6" fill="url(#steel)"/>
+      <g fill="#344247"><ellipse cy="-12" rx="3.4" ry="4.1"/><ellipse cy="-12" rx="3.4" ry="4.1" transform="rotate(45)"/><ellipse cy="-12" rx="3.4" ry="4.1" transform="rotate(90)"/><ellipse cy="-12" rx="3.4" ry="4.1" transform="rotate(135)"/><ellipse cy="-12" rx="3.4" ry="4.1" transform="rotate(180)"/><ellipse cy="-12" rx="3.4" ry="4.1" transform="rotate(225)"/><ellipse cy="-12" rx="3.4" ry="4.1" transform="rotate(270)"/><ellipse cy="-12" rx="3.4" ry="4.1" transform="rotate(315)"/></g>
+      <circle r="8" fill="url(#steel)" stroke="#647575" stroke-width=".7"/><circle r="3.7" fill="#34464a"/>
+    </g>
+    <pattern id="office" width="10" height="9" patternUnits="userSpaceOnUse"><path d="M2 3h4" stroke="#a4b7a7" stroke-width="2" opacity=".4"/></pattern>
+  </defs>
+  <!-- A quiet urban edge beneath the wooded Oslo hills. -->
+  <path fill="url(#sky)" d="M0 0h640v470H0z"/><path fill="url(#haze)" d="M0 0h640v345H0z"/>
+  <path d="M0 195q28-14 56-9l36-13 35 8 41-15 30 6 38-10 34 8 33-14 33 8 46-17 38 6 30-13 33 4 31-18 36 12 39-6 35 12 26-7v164H0z" fill="#617978" opacity=".44"/>
+  <path d="M0 216l45-14 31 2 44-13 26 6 44-16 38 8 35-3 31 4 43-17 35 2 51-12 20 4 29-11 23 5 46-15 39 7 35-13 35 5v146H0z" fill="#405d60"/>
+  <g fill="#3b5559"><path d="M0 224h25v-19h24v17h22v-30h38v33h15v-19h41v21h361v-52h27v19h13v-34h18v41h12v-21h22v27h22v75H0z"/><path d="M512 238v-31h42v31m48-26v-28h19v28" fill="url(#office)"/></g>
+  <g stroke="#a6b3a6" fill="none" stroke-width="1" opacity=".42"><path d="M501 212v-68l45-3m-45 3-15 2m15-5 3-4 29 5m1 1v17M75 224v-59l-23-3 39 2m-16-2 3-4 12 6"/></g>
+  <path d="M0 242q156-10 350-7l290-11v66H0z" fill="#30484d"/><path d="M0 266 640 250v54H0z" fill="#536969"/>
+  <path d="M0 274 640 258" stroke="#92a59b" opacity=".65"/><path d="M0 285 640 265v205H0z" fill="url(#road)"/>
+  <g fill="none"><path d="M0 319 640 282" stroke="#83928d" opacity=".32"/><path d="M0 435 640 356" stroke="#7e8982" opacity=".4"/><path d="M0 456 640 369" stroke="#6a7974" opacity=".25"/><path d="m12 424 103-13m109-13 91-11m102-13 69-8" stroke="#bac3ad" stroke-width="2" opacity=".42"/></g>
+  <ellipse cx="322" cy="352" rx="240" ry="18" fill="#102329" opacity=".75" filter="url(#blur)" transform="rotate(3 322 352)"/>
+  <g transform="translate(0 31.2) scale(1 .915)">
+  <!-- Far side running gear, underbody and the two near wheels. -->
+  <path d="m100 307 410 4 41 10-22 15-91 23-297-20-50-9z" fill="#17282d"/>
+  <ellipse cx="516" cy="329" rx="20" ry="24" fill="#19272b"/><ellipse cx="110" cy="313" rx="17" ry="24" fill="#1a292c"/>
+  <g transform="translate(155 326) matrix(.88 .05 -.025 1 0 0)"><use href="#wheel"/></g>
+  <g transform="translate(426 346) matrix(.91 .05 -.025 1.02 0 0)"><use href="#wheel"/></g>
+  <!-- Single-piece pressed steel silhouette; the arch openings reveal the wheels. -->
+  <path d="M77 302c-1-25 1-62 6-97 2-19 7-30 22-33 43-5 150-5 221-3 20 1 34 7 48 22l46 48c25 4 48 10 65 18 14 7 20 21 21 41l-2 38-44 13-3-10c-2-19-13-32-31-33-21-1-33 16-34 37l-1 5-202-15-1-9c-1-18-13-30-31-31-21-1-32 14-34 32l-1 4-34-3c-10-1-13-10-12-24z" fill="url(#paint)" stroke="#658081" stroke-width="1.6"/>
+  <path d="M87 203q2-25 18-28c64-5 143-4 219-2 17 0 28 5 39 15" fill="none" stroke="#fcfff8" stroke-width="2"/>
+  <path d="M107 173c62-5 147-5 219-3 15 0 26 6 35 13l45-7c-11-10-23-14-41-15-93-3-191-1-239 5z" fill="#eff3ed" stroke="#c3d0ca" stroke-width="1"/>
+  <path d="m130 166 203-1 25 2m-195 2 174-1" fill="none" stroke="#adbeb8" stroke-linecap="round" opacity=".55"/>
+  <!-- Cargo box panel, sliding door rail, recessed belt and rocker moldings. -->
+  <path d="M96 192q1-8 9-9l174 1q7 0 7 7l-3 61-193-8z" fill="#eef3ec" opacity=".42"/>
+  <path d="M166 182q-4 33-5 66m0 11-2 23m124-98c7 1 9 3 9 9l-4 124q0 8-7 8l-92-7" fill="none" stroke="#8c9f9b" stroke-width="1.25"/>
+  <path d="M91 252q45 1 85 4" fill="none" stroke="#a5b7b1" stroke-width="4" stroke-linecap="round"/><path d="m94 252 78 4" stroke="#718886" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="m188 303 101 7 103 5" fill="none" stroke="#edf2ea" stroke-width="2"/><path d="m192 318 197 14-1 10-197-15z" fill="url(#trim)"/>
+  <path d="M81 311l40 3-3 9-32-2q-7-1-5-10z" fill="url(#trim)"/>
+  <path d="M119 319q5-35 36-34c19 0 31 13 35 34m202 15q5-37 35-36c18 1 31 15 35 34" fill="none" stroke="#f1f5ee" stroke-width="2"/>
+  <path d="M83 228l8 1-2 44-9-1z" fill="#943d37"/><path d="m83 234 6 1-1 13-6-1" fill="#dc6d5a"/><path d="m82 254 6 .5-.5 7-6-.5" fill="#dfd9c7"/>
+  <!-- The sliding and front door handles. -->
+  <g fill="#405457" stroke="#8ea29b" stroke-width="1"><rect x="270" y="255" width="15" height="4.4" rx="2.2" transform="rotate(3 270 255)"/><rect x="298" y="256" width="15" height="4.5" rx="2.2" transform="rotate(3 298 256)"/></g>
+  <g transform="matrix(1 .035 -.025 1 178 219)" font-family="Arial,Helvetica,sans-serif"><rect x="0" y="-13" width="23" height="23" rx="5" fill="#d6f36a"/><text x="4" y="3.5" fill="#213338" font-weight="bold" font-size="12">UL</text><text x="29" y="-1" fill="#22383c" font-size="13" font-weight="bold" letter-spacing="1.4">URBAN</text><text x="29.5" y="8" fill="#4c6765" font-size="6.1" font-weight="bold" letter-spacing="1.8">LOGISTIKK</text></g>
+  <!-- Sloped A-pillar and the inset driver's window distinguish the Vito front. -->
+  <path d="m299 188 25 1c11 0 20 4 30 14l41 40-99-4z" fill="url(#glass)" stroke="#354b50" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="m303 193 22 1q13 0 24 10l23 23-74-5z" fill="#a9bdb6" opacity=".27"/><path d="m363 216-2 24" stroke="#29434a" stroke-width="3"/>
+  <path d="m292 243 102 5 12 12-4 40q-12 9-16 23l-97-7z" fill="none" stroke="#96a9a3" stroke-width="1.1"/>
+  <path d="m369 186 37-8c10 7 24 24 34 36l20 21-45 7z" fill="url(#wind)" stroke="#344c53" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m375 187 30-6 26 28-41-4z" fill="#cad5c9" opacity=".22"/>
+  <path d="m414 239 42-6m-29 1 18-5" stroke="#3c555a" fill="none" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="m392 242 13 4 1 4-15-2z" fill="#263e45"/><path d="M378 237q1-5 7-5l13 2q4 1 4 6l-2 6-16-1q-6-1-6-8z" fill="#394f55" stroke="#263d43"/><path d="M382 235q8-2 16 1" stroke="#718889" fill="none"/>
+  <!-- Cooling condenser pod sits across the roof, with its own intake and mounting foot. -->
+  <g transform="translate(1 1)"><path d="m251 167 8-2 52 1 9 4-12 4-53-2z" fill="#758c89" opacity=".7"/><path d="m247 163 3-8q2-6 9-7l41-3q12 0 18 6l5 7-13 9-56-1z" fill="#eef2e9" stroke="#9cafa8" stroke-width="1.2"/><path d="m251 155 53 1 14-5m-14 5 5 10" fill="none" stroke="#c6d4cb"/><path d="m311 156 9-3 2 5-10 6z" fill="#627778"/><path d="m254 159 46 1m-45 2 45 1" stroke="#9cafa9" stroke-width="1.1"/></g>
+  <!-- Short sculpted hood and foreshortened face, including the Mercedes twin-bar grille. -->
+  <path d="m416 243 44-8c22 2 49 8 68 16 10 5 16 10 22 18l-52 14c-8-11-15-17-27-23z" fill="url(#hood)" stroke="#9bafaa" stroke-width="1.2"/>
+  <path d="M430 244q35 6 62 18m-28-24q37 5 60 18" fill="none" stroke="#fcfdf6" stroke-width="1.7"/>
+  <path d="m499 279 51-13q7 13 6 39l-3 14q-20 14-50 23l-36 7-6-10 32-11z" fill="url(#nose)" stroke="#718989" stroke-width="1.4"/>
+  <path d="m500 280 50-12-2 19-44 15-8-13z" fill="#253a40" stroke="#829797" stroke-width="1.2"/>
+  <path d="m500 284 47-13m-43 21 43-14" fill="none" stroke="#c6d0c8" stroke-width="2.6"/>
+  <g transform="translate(526 283) matrix(.80 -.25 0 1 0 0)"><circle r="9.8" fill="#293d42" stroke="#d9e2da" stroke-width="1.6"/><path d="m0-8.2 1.1 7 5.8 5.3-7-3.5-7.1 3.5L-1.2-1.1z" fill="#e7ece5"/></g>
+  <path d="m453 261 14 1q17 2 29 12l8 13-16-3-20-10z" fill="url(#lamp)" stroke="#708787" stroke-width="1.5"/>
+  <path d="m460 264 13 2q14 3 22 11l4 5-15-5" fill="none" stroke="#f5fbef" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="m472 270 10 3 4 5-9-3z" fill="#728d90"/><path d="m548 269 4-3 3 9-6 4z" fill="url(#lamp)" stroke="#879a95"/>
+  <path d="m470 298 28 6 54-18-1 7-51 20-29-5z" fill="#c1cec7"/>
+  <path d="m464 320 31 2 55-20-2 12-52 21-33 1z" fill="url(#trim)" stroke="#536a6c"/>
+  <path d="m474 323 17 1m8 4 45-17" stroke="#6f8482" stroke-width="1.1"/><path d="m508 307 28-10v8l-28 10z" fill="#e7eae0" stroke="#83938d" stroke-width=".8"/><path d="m508 307 3-1v8l-3 1z" fill="#638198"/>
+  <path d="m472 340 25-3 52-20" stroke="#aebeb5" stroke-width="2" fill="none"/>
+  <path d="m78 340 17 1m440 1 19-3" stroke="#95a097" opacity=".24"/>
+  </g>
+</svg>
