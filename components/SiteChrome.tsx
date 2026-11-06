@@ -1,0 +1,10 @@
+'use client';
+import type { MouseEvent, KeyboardEvent } from 'react';
+import Link from 'next/link';
+import {ArrowUpRight,Menu,X} from 'lucide-react';
+function Brand(){return <><span className="brand-mark">UL</span><span>URBAN<small>LOGISTIKK</small></span></>}
+function closeMenu(event:MouseEvent<HTMLAnchorElement>){event.currentTarget.closest('details')?.removeAttribute('open');}
+function NavigationLinks({mobile=false}:{mobile?:boolean}){return <><a href="/#tjenester" onClick={closeMenu}>Tjenester</a><a href="/#flaten" onClick={closeMenu}>Bilene</a><a href="/#slik" onClick={closeMenu}>Slik starter vi</a><a href="/#kontakt" onClick={closeMenu}>Kontakt</a>{mobile&&<a href="/tilbud" className="mobile-quote" onClick={closeMenu}>Be om tilbud <ArrowUpRight size={15}/></a>}</>}
+function escapeMenu(event:KeyboardEvent<HTMLDetailsElement>){if(event.key==='Escape'){event.currentTarget.open=false;event.currentTarget.querySelector('summary')?.focus();}}
+export function SiteHeader(){return <header className="nav"><div className="container nav-inner"><Link className="brand" href="/" aria-label="Urban Logistikk – forsiden"><Brand/></Link><nav className="nav-links desktop-navigation" aria-label="Hovedmeny"><NavigationLinks/></nav><details className="mobile-navigation" onKeyDown={escapeMenu}><summary className="mobile-menu-toggle" aria-label="Meny"><Menu className="menu-open-icon" aria-hidden="true"/><X className="menu-close-icon" aria-hidden="true"/><span>Meny</span></summary><nav className="mobile-menu-panel" aria-label="Mobilmeny"><NavigationLinks mobile/></nav></details><a className="nav-cta" href="/tilbud">Be om tilbud <ArrowUpRight size={15}/></a></div></header>}
+export function SiteFooter(){return <footer className="footer"><div className="container footer-inner"><Link className="brand" href="/"><Brand/></Link><span className="footer-copy">© {new Date().getFullYear()} Urban Logistikk AS · Org.nr. 927 027 100</span><div className="footer-links"><Link href="/personvern">Personvern</Link><Link href="/admin">Administrasjon</Link><a href="tel:+4796840395">+47 968 40 395</a></div></div></footer>}

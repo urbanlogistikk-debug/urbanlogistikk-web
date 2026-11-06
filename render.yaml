@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: urbanlogistikk-web
+    runtime: docker
+    region: frankfurt
+    plan: 0.5c-512mb
+    numInstances: 1
+    healthCheckPath: /health
+    disk:
+      name: inquiries
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DATABASE_PATH
+        value: /var/data/urban.sqlite
+      - key: ADMIN_USERNAME
+        value: operator
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: FORM_RATE_LIMIT_SECRET
+        generateValue: true
