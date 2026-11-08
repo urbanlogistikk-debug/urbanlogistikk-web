@@ -1,5 +1,7 @@
 export const services = {
  'lastebil': {
+  seoTitle:'Lastebil og palletransport i Oslo og Akershus',
+  seoDescription:'Lastebiltransport og palletransport for bedrifter i Oslo og Akershus. Enkeltoppdrag eller faste ruter. Oppgi last, vekt og behov for løftelem og få tilbud.',
   title:'Lastebiltransport i Oslo og omegn', eyebrow:'Paller · større last · bedriftslevering',
   intro:'Vi tilbyr lastebiltransport for bedrifter som trenger å flytte paller eller større last. Fortell oss om oppdraget, så finner vi et passende transportopplegg.',
   heading:'Mer plass til transportbehovet ditt.',
@@ -11,6 +13,8 @@ export const services = {
   cta:'Få tilbud på lastebil',href:'/tilbud?vehicle=lastebil'
  },
  'kjoletransport': {
+  seoTitle:'Kjøletransport for bedrifter i Oslo og Akershus',
+  seoDescription:'Kjølebil med sjåfør til matvarer, catering og ferskvarer i Oslo og Akershus. Små leveranser eller opptil 8 pallplasser. Be om tilbud på kjøletransport.',
   title:'Kjøletransport i Oslo og omegn', eyebrow:'Matvarer · catering · kjølevarer',
   intro:'Transport for varer som trenger kjøling underveis. Vi avklarer temperaturkrav, last og leveringsforhold før vi velger bil og opplegg.',
   heading:'Fra hentested til mottaker, med et avtalt temperaturbehov.',
@@ -22,6 +26,8 @@ export const services = {
   cta:'Beskriv kjøletransporten', href:'/tilbud?type=enkelt'
  },
  'faste-ruter': {
+  seoTitle:'Faste distribusjonsruter i Oslo og Akershus',
+  seoDescription:'Faste distribusjonsruter for bedrifter i Oslo og Akershus. Kjølebil eller tørrbil til butikkleveranser, catering og hjemlevering. Få et tilbud på ruten din.',
   title:'Faste distribusjonsruter for bedrifter', eyebrow:'Planlagt kapasitet · gjentakende leveranser',
   intro:'Et transportopplegg rundt de faste leveransene dine. Fortell oss om hentested, mottakere, frekvens og tidsvinduer, så vurderer vi en løsning.',
   heading:'En rute som passer arbeidsdagen deres.',
@@ -33,6 +39,8 @@ export const services = {
   cta:'Få tilbud på fast rute',href:'/tilbud?type=fast'
  },
  'hjemlevering': {
+  seoTitle:'Hjemlevering for bedrifter i Oslo og Akershus',
+  seoDescription:'Hjemlevering og distribusjon med flere stopp i Oslo og Akershus. Varebiler og kjølebiler til matvarer og netthandel. Be om tilbud på faste leveringsruter.',
   title:'Hjemlevering og distribusjon med flere stopp', eyebrow:'Sisteleddslevering · varebil · Oslo og omegn',
   intro:'Leveranser fra hentested til kundens adresse, med et opplegg tilpasset varetype, leveringsområde og antall stopp.',
   heading:'Den siste delen av kundens bestilling.',
